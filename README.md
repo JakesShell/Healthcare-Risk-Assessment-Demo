@@ -1,20 +1,56 @@
-# AI for Healthcare: Disease Diagnosis Predictive Model
+﻿# Healthcare Risk Assessment Demo
 
 ## Overview
 
-The **AI for Healthcare** project is a Java-based application that develops a predictive model for disease diagnosis using machine learning techniques. It utilizes medical datasets to train a model that can predict disease outcomes based on user-provided input. This project aims to demonstrate the potential of AI in the healthcare domain, enabling healthcare professionals to make informed decisions based on predictive analytics.
+Healthcare Risk Assessment Demo is a Java Swing desktop application that demonstrates a simple screening workflow using two numeric input features.
 
-## Features
+This project is positioned as a recruiter-ready Java desktop portfolio piece. It focuses on UI interaction, structured Java project setup, rule-based scoring logic, and clear separation between interface and business logic.
 
-- **Predictive Modeling**: Implements a logistic regression model to predict disease diagnosis based on input features.
-- **User-Friendly Interface**: Provides a graphical user interface (GUI) using Java Swing for easy input of medical features and display of predictions.
-- **Data Visualization**: Integrates visualization components to showcase model accuracy and performance metrics (to be added).
-- **Modular Design**: The project is structured with separate classes for data loading, model training, and user interface, promoting maintainability and scalability.
+The application is intentionally framed as an educational demo and not a real clinical diagnosis system.
 
-## Technologies Used
+## Real-World Business Use Case
 
-- **Java**: The primary programming language used for implementation.
-- **Apache Spark**: For building and training the machine learning model.
-- **Apache Commons CSV**: For reading CSV files containing medical data.
-- **JFreeChart**: (Optional) For future data visualization of model accuracy and metrics.
-- **Java Swing**: For creating the graphical user interface.
+This project maps to practical workflows relevant to:
+
+- Java Desktop Application Development
+- Internal Healthcare Software Prototyping
+- Risk Screening Demo Interfaces
+- Technical Portfolio Presentation
+- Structured Java Application Design
+
+A team may need to answer questions such as:
+
+- How can a simple desktop screening workflow be presented clearly?
+- How can Java Swing be used to build a small interactive interface?
+- How can business logic be separated from UI code?
+- How can an incomplete concept be turned into a buildable Maven project?
+
+## Key Features
+
+- Java Swing Desktop Interface
+- Two-Feature Risk Input Workflow
+- Rule-Based Risk Classification
+- Explanation Output For The Result
+- Maven Project Structure
+- Educational, Recruiter-Friendly Positioning
+
+## Tech Stack
+
+- Java 17
+- Java Swing
+- Maven
+
+## Repository Contents
+
+- `pom.xml`
+- `src/main/java/com/healthcare/Main.java`
+- `src/main/java/com/healthcare/MedicalRecord.java`
+- `src/main/java/com/healthcare/RiskAssessor.java`
+- `README.md`
+
+## How To Run
+
+### Build
+
+```powershell
+mvn clean package
